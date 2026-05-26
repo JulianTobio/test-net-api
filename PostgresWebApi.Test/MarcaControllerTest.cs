@@ -24,7 +24,7 @@ namespace PostgresWebApi.Test
             {
                 dbContext.Marcas.Add(new Marca() { Nombre = "Adidas" });
                 dbContext.Marcas.Add(new Marca() { Nombre = "Nike" });
-                dbContext.Marcas.Add(new Marca() { Nombre = "Topper" });
+                dbContext.Marcas.Add(new Marca() { Nombre = "Umbro" });
 
                 await dbContext.SaveChangesAsync();
             }
