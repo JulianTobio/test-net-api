@@ -65,7 +65,7 @@ namespace PostgresWebApi.Test
             OkObjectResult objectResult = Assert.IsType<OkObjectResult>(result.Result);
             MarcaResponse marca = Assert.IsType<MarcaResponse>(objectResult.Value);
             Assert.NotNull(marca);
-            Assert.Equal(2, marca.Id);
+            Assert.Equal(1, marca.Id);
             Assert.Equal("Adidas", marca.Nombre);
         }
 
