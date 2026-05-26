@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PostgresWebApi.MockTest/PostgresWebApi.MockTest.csproj" Id="b93b6121-bf4a-4e87-8880-a6e5883523c1" />
+  <Project Path="PostgresWebApi.Test/PostgresWebApi.Test.csproj" Id="19e2e4ff-51e6-4354-8cb4-82d81899aec4" />
+  <Project Path="PostgresWebApi/PostgresWebApi.csproj" />
+</Solution>

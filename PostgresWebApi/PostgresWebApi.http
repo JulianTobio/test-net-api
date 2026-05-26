@@ -1,0 +1,21 @@
+@PostgresWebApi_HostAddress = http://localhost:5115
+
+GET {{PostgresWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{PostgresWebApi_HostAddress}}/api/marca/
+Accept: application/json
+
+###
+
+GET {{PostgresWebApi_HostAddress}}/api/categoria/
+Accept: application/json
+
+###
+
+GET {{PostgresWebApi_HostAddress}}/api/producto/
+Accept: application/json
+
+###
