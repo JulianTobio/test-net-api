@@ -3,6 +3,6 @@ namespace PostgresWebApi.Models
 {
     public class Marca : ClaseBase
     {
-        public string Nombre { get; set; }
+        public required string Nombre { get; set; }
     }
 }
