@@ -57,9 +57,9 @@ namespace PostgresWebApi.Services
                     Stock = p.Stock,
                     Imagen = p.Imagen,
                     CategoriaId = p.CategoriaId,
-                    CategoriaName = p.Categoria.Nombre,
+                    CategoriaName = p.Categoria != null ? p.Categoria.Nombre : string.Empty,
                     MarcaId = p.MarcaId,
-                    MarcaName = p.Marca.Nombre,
+                    MarcaName = p.Marca != null ? p.Marca.Nombre : string.Empty,
                 })
                 .FirstOrDefaultAsync();
         }
@@ -75,9 +75,9 @@ namespace PostgresWebApi.Services
                 Stock = p.Stock,
                 Imagen = p.Imagen,
                 CategoriaId = p.CategoriaId,
-                CategoriaName = p.Categoria.Nombre,
+                CategoriaName = p.Categoria != null ? p.Categoria.Nombre : string.Empty,
                 MarcaId = p.MarcaId,
-                MarcaName = p.Marca.Nombre,
+                MarcaName = p.Marca != null ? p.Marca.Nombre : string.Empty,
             }).ToListAsync();
         }
 
